@@ -1,0 +1,1 @@
+{"version":3,"file":"components-library.component.d.ts","sources":["components-library.component.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;AACA;;;AACA","sourcesContent":["import { OnInit } from '@angular/core';\r\nexport declare class ComponentsLibraryComponent implements OnInit {\r\n    text: any;\r\n    constructor();\r\n    ngOnInit(): void;\r\n}\r\n"]}
