@@ -3,5 +3,3 @@
  */
 export * from './public-api';
 export { ListComponent as ɵa } from './lib/list/list.component';
-
-//# sourceMappingURL=components-library.d.ts.map

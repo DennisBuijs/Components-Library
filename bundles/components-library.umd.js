@@ -7,12 +7,15 @@
     var ComponentsLibraryService = /** @class */ (function () {
         function ComponentsLibraryService() {
         }
+        ComponentsLibraryService.prototype.testFunction = function (testText) {
+            console.log(testText);
+        };
         return ComponentsLibraryService;
     }());
     ComponentsLibraryService.ɵprov = i0.ɵɵdefineInjectable({ factory: function ComponentsLibraryService_Factory() { return new ComponentsLibraryService(); }, token: ComponentsLibraryService, providedIn: "root" });
     ComponentsLibraryService.decorators = [
         { type: i0.Injectable, args: [{
-                    providedIn: 'root'
+                    providedIn: 'root',
                 },] }
     ];
     ComponentsLibraryService.ctorParameters = function () { return []; };

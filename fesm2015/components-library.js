@@ -3,11 +3,14 @@ import { CommonModule } from '@angular/common';
 
 class ComponentsLibraryService {
     constructor() { }
+    testFunction(testText) {
+        console.log(testText);
+    }
 }
 ComponentsLibraryService.ɵprov = ɵɵdefineInjectable({ factory: function ComponentsLibraryService_Factory() { return new ComponentsLibraryService(); }, token: ComponentsLibraryService, providedIn: "root" });
 ComponentsLibraryService.decorators = [
     { type: Injectable, args: [{
-                providedIn: 'root'
+                providedIn: 'root',
             },] }
 ];
 ComponentsLibraryService.ctorParameters = () => [];
