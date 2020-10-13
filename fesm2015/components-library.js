@@ -101,7 +101,11 @@ ComponentsLibraryModule.decorators = [
     { type: NgModule, args: [{
                 declarations: [ComponentsLibraryComponent, ListComponent],
                 imports: [CommonModule],
-                exports: [ComponentsLibraryComponent, ListComponent],
+                exports: [
+                    ComponentsLibraryComponent,
+                    ListComponent,
+                    ComponentsLibraryService,
+                ],
             },] }
 ];
 

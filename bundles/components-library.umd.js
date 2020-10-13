@@ -73,7 +73,11 @@
         { type: i0.NgModule, args: [{
                     declarations: [ComponentsLibraryComponent, ListComponent],
                     imports: [common.CommonModule],
-                    exports: [ComponentsLibraryComponent, ListComponent],
+                    exports: [
+                        ComponentsLibraryComponent,
+                        ListComponent,
+                        ComponentsLibraryService,
+                    ],
                 },] }
     ];
 
